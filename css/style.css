@@ -27,6 +27,8 @@ h1 {
     padding: 2px;
     /* sombra no boxe */
     box-shadow: 1px 1px;
+    /* para como seu Box sewra medido */
+    box-sizing: content-box;
 }
 h2 {
     margin: 2px 0px 0px 0px;
