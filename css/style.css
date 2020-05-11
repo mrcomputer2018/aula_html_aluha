@@ -1,0 +1,39 @@
+body {
+    /* cor de fundo da tela */
+    background-color: darkgray;
+    /* 100 porcento da tela em que esta sendo exibido */
+    background-size: auto 100vh;
+    /* definindo as fontes do site */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    
+}
+.menu {
+    background-color: whitesmoke;
+}
+.menu ul {
+    /* Forca os menus ficarem em linha */
+    display: flex;
+    /* Colocar espacos em tudo */
+    justify-content: space-around;
+}
+/* seletor hierarquico - o ultimo que e atingido (li) */
+.menu li {
+    list-style: none;
+}
+a {
+    color: dimgray;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+.site-subtitle {
+    /* Altera o estilo do H2 */
+    font-style: italic;
+}
