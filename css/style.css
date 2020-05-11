@@ -21,6 +21,16 @@ body {
 .menu li {
     list-style: none;
 }
+h1 {
+    margin: 2px 0px 5px 0px;
+    border: 2px solid;
+    padding: 2px;
+    /* sombra no boxe */
+    box-shadow: 1px 1px;
+}
+h2 {
+    margin: 2px 0px 0px 0px;
+}
 a {
     color: dimgray;
     text-decoration: none;
@@ -32,6 +42,7 @@ a:hover {
 .site-title {
     color: whitesmoke;
     text-align: center;
+    
 }
 .site-subtitle {
     /* Altera o estilo do H2 */
