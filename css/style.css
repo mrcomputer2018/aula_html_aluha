@@ -2,6 +2,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* comecar a contar a partir da borda da caixa */
+    box-sizing: border-box; 
 }
 body {
     /* cor de fundo da tela */
@@ -26,6 +28,7 @@ body {
 .menu li {
     list-style: none;
     padding-right: 30px;
+    padding-left: 10px;
 }
 h1 {
     margin: 2px 0px 5px 0px;
