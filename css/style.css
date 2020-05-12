@@ -15,22 +15,52 @@ body {
     height: 100vh;
     
 }
+/* se tela tiver pelo menos 400px vai carregar estes estilos */
+@media (min-width: 400px) {
+
+}
+header {
+    /* colocando com toda altura da tela */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.site-title {
+    color: whitesmoke;
+    text-align: auto;
+    position: fixed;
+    width: 100vw;
+    /* colando no topo o tiutlo */
+    top: 0;
+    
+}
 .menu {
     background-color: whitesmoke;
+    /* Fixar o menu na tela */
+    position: fixed;
+    width: 100vw;
+    top: 50px;
+
 }
 .menu ul {
     /* Forca os menus ficarem em linha */
     display: flex;
     /* Colocar espacos em tudo */
     justify-content: space-start;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 /* seletor hierarquico - o ultimo que e atingido (li) */
 .menu li {
     list-style: none;
-    padding-right: 30px;
     padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 3px;
 }
 h1 {
+    background-color: black;
+    left: 0px;
     margin: 2px 0px 5px 0px;
     border: 2px solid;
     padding: 2px;
@@ -38,9 +68,14 @@ h1 {
     box-shadow: 1px 1px;
     /* para como seu Box sewra medido */
     box-sizing: content-box;
+    position: fixed;
 }
 h2 {
     margin: 2px 0px 0px 0px;
+}
+. menu a {
+    display: block;
+    padding: 10px 20px;
 }
 a {
     color: dimgray;
@@ -49,13 +84,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.site-subtitle,
-.site-title {
-    color: whitesmoke;
-    text-align: center;
-    
-}
 .site-subtitle {
     /* Altera o estilo do H2 */
     font-style: italic;
+    color: whitesmoke;
+    text-align: center;
+}
+.img-portifolio {
+    height: 180px;
+    width: 180px;
 }
