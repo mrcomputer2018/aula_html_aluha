@@ -1,3 +1,8 @@
+/* reset no css - para o navegador nao colocar nada por padrao*/
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     /* cor de fundo da tela */
     background-color: darkgray;
