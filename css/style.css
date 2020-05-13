@@ -15,10 +15,6 @@ body {
     height: 100vh;
     
 }
-/* se tela tiver pelo menos 400px vai carregar estes estilos */
-@media (min-width: 400px) {
-
-}
 header {
     /* colocando com toda altura da tela */
     height: 100vh;
@@ -33,6 +29,7 @@ header {
     width: 100vw;
     /* colando no topo o tiutlo */
     top: 0;
+    font-size: 2em;
     
 }
 .menu {
@@ -72,6 +69,7 @@ h1 {
 }
 h2 {
     margin: 2px 0px 0px 0px;
+    font-size: 36px;
 }
 . menu a {
     display: block;
